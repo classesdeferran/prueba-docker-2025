@@ -6,5 +6,18 @@ PASOS EJERCICIO
 
 3) Crear la imagen Docker y subirlo a Dockerhub.
 
+Crear la imagen:
+docker build -t simply-app:v1 .
+
+Crear la imagen para Dockerhub:
+docker tag simply-app:v1 ferranclasses/simply-app:v1
+
+Identificarnos en Dockerhub para subir la imagen:
+docker login -u 'nombre_usuario' -p 'contraseña' docker.io
+
+Subir la imagen:
+docker push ferranclasses/simply-app:v1
+
+
 4) Publicar la imagen en render.com
 
