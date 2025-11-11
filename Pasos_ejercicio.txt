@@ -1,0 +1,10 @@
+PASOS EJERCICIO
+
+1) Levantar el servidor con Express
+
+2) Subir el código a Github. Enviar la dirección del repositorio.
+
+3) Crear la imagen Docker y subirlo a Dockerhub.
+
+4) Publicar la imagen en render.com
+
